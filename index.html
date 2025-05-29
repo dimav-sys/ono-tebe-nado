@@ -5,6 +5,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
+    <!-- 
+    Подключите все CSS-файлы в <head> вашего HTML-файла. 
+    Сначала шрифты, потом глобальные стили, 
+    затем файл с вашими будущими стилями.
+    -->
+    <link
+      rel="stylesheet"
+      href="./fonts/fonts.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./styles/global.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./styles/style.css"
+    />
   </head>
-  <body></body>
+
+
+  <body>
+
+    <header class="header">
+      <!-- шапка с лого, индексом и контактами -->
+      <nav class="header__menu menu">
+        <ul class="header__links-list">
+          <li class="header__links-list-item header__links-list-item_no-bullit">главная</li>
+          <li class="header__links-list-item">посмотреть лоты</li>
+          <li class="header__links-list-item">об аукционе</li>
+        </ul>
+      </nav>
+      <div class="header__logo">
+        <a target="_top">
+          <img src="./images/logo-black.svg" alt="logo-black" class="header__logo-image">
+        </a>
+      </div>
+
+    </header>
+
+    <main class="main">
+  
+      <section class="cover"> 
+        <!-- первая секция - картинка с надписями -->
+      </section>
+
+      <section class="lots">
+        <!-- секция с карточками лотов - три лота -->
+      </section>
+
+      <section class="about">
+        <!-- секция с информацией об аукционе - лого кругляш, текст -->
+      </section>
+
+    </main>
+
+    <footer class="footer">
+      <!-- подвал с индексом, контактами и соцсетями-->
+    </footer>
+
+  </body>
 </html>

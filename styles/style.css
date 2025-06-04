@@ -41,7 +41,6 @@ body {
 .header__menu .header__links-list {
   display: flex;
   justify-content: space-between;
-  /* inside регулирует отступы между элементами списка */
   list-style: circle inside;
 }
 
@@ -143,19 +142,57 @@ body {
   text-align: center;
 }
 
-
-
-
-
-
-
-
 .lots {
-margin-top: 200px;
-width: 1052px;
-height: 692px;
-background-color: rgba(0, 0, 0, .5);
+  margin-top: 183px;
+  border: 1px solid pink;
+}
+
+.lots__heading {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 700;
+  padding-left: 63px;
+  padding-bottom: 26px;
+}
+
+.lots__card-list {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 } 
+
+.lots__card-list-item {
+  list-style: none;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  border: 1px solid red;
+  width: 334px;
+  min-height: 563px;
+}
+
+.card__title {
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: underline;
+  border: 1px solid red;
+}
+
+.card__text {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.lots__card-list-item a {
+  text-decoration: none;
+}
+
 
 .about {
 margin-top: 200px;

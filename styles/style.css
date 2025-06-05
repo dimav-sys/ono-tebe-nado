@@ -254,17 +254,50 @@ body {
 }
 
 
-
-
-
-
-
-
-
-
 .about {
-margin-top: 200px;
-width: 1052px;
-height: 692px;
-background-color: rgba(0, 0, 0, .5) ;
+margin-top: 183px;
+border: 1px solid pink;
+}
+
+.about__column {
+  display:grid;
+  grid-template-columns: 24px 334px 1fr 24px;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  border: 1px solid yellow;
+}
+
+.about__logo {
+  grid-column: 2/3;
+  grid-row: 1/2;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 240px;
+  width: 240px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.about__logo-image {
+  width: 148px;
+  height: 114px;
+}
+
+.about__title {
+  grid-column: 3/4;
+  grid-row: 1/2;
+  font-size: 47px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.about__text {
+  grid-column: 3/4;
+  grid-row: 2/3;
+  font-size: 20px;
+  text-align: left;
 }

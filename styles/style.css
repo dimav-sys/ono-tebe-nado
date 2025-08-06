@@ -25,7 +25,7 @@ body {
 
 .header__menu {
   margin-left: 26.52px;
-  grid-column: 1/2;
+  /* grid-column: 1/2; */
   /* margin-top: 44px; */
   /* margin-left: 26.52px; */
   width: 391.4786376953125px;
@@ -50,7 +50,7 @@ body {
 
 .header__logo {
   width: 148px;
-  height: 105px; */
+  height: 105px;
   border: 1px solid black;
   display: flex;
   justify-content: center;
@@ -255,8 +255,8 @@ body {
 
 
 .about {
-margin-top: 183px;
-border: 1px solid pink;
+margin-top: 160px;
+border: 1px red solid;
 }
 
 .about__column {
@@ -288,11 +288,13 @@ border: 1px solid pink;
 }
 
 .about__title {
+  border: 1px solid blue;
   grid-column: 3/4;
   grid-row: 1/2;
   font-size: 47px;
   font-weight: 700;
   text-transform: uppercase;
+  justify-self:flex-start;
 }
 
 .about__text {
@@ -300,4 +302,35 @@ border: 1px solid pink;
   grid-row: 2/3;
   font-size: 20px;
   text-align: left;
+}
+
+.footer {
+  margin-top: 160px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footer .footer__menu-list {
+  text-align: center;
+}
+
+.footer .footer__menu-list-item {
+  list-style: none;
+}
+ 
+.footer__social-list {
+  display: flex;
+  /* justify-content: space-between; */
+  list-style: circle inside;
+  border: 10px red;
+}
+
+.footer .footer__social-list-item {
+  list-style: none;
+}
+
+.footer .footer__social-icon {
+  height: 48px;
+  width: 48px;
 }

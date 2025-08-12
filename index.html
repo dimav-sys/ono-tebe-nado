@@ -5,11 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
-    <!-- 
-    Подключите все CSS-файлы в <head> вашего HTML-файла. 
-    Сначала шрифты, потом глобальные стили, 
-    затем файл с вашими будущими стилями.
-    -->
     <link
       rel="stylesheet"
       href="./fonts/fonts.css"
@@ -24,11 +19,9 @@
     />
   </head>
 
-
   <body>
 
     <header class="header">
-      <!-- шапка с лого, индексом и контактами -->
       <nav class="header__menu menu">
         <ul class="header__links-list">
           <li class="header__links-list-item header__links-list-item_no-bullit">главная</li>
@@ -42,7 +35,6 @@
           <img src="./images/logo-black.svg" alt="logo-black" class="header__logo-image">
         </a>
       </div>
-
       <address class="header__address address">
         <a href="tel:+99995555555">+9 999 555 5555</a><br>
         <a href="mailto:info@sobaka.ge">info@sobaka.ge</a><br>
@@ -51,92 +43,77 @@
     </header>
 
     <main class="main">
-  
       <section class="cover"> 
         <div class="overlay"></div>
-        <!-- первая секция - картинка с надписями -->
         <h1 class="cover__title">  
             <span class="aligned-text">
               о<span class="letter-spacing-extended">но</span><br>
             </span>
-          
             <span class="aligned-text_center"> 
                 те<span class="letter-spacing-extended">бе</span><br>
             </span>
-              
             <span class="aligned-text_right">
               <span class="letter-spacing-extended">н</span>адо
             </span>
         </h1>
-
         <div class="cover__description">
           <span class="cover__description-text">
             аукцион вещей, в которые никто не верил
           </span>
-
           <button class="bet-button">
             сделать ставку
           </button>
         </div>
-        
       </section>
 
       <section class="lots">
         <h1 class="lots__heading">лоты</h1>
         <ul class="lots__card-list">
-
           <li class="lots__card-list-item">
             <a class="card-link" href=""><article class="card card_type_film">
               <div class="overlay"></div>
-              <span class="card__title">фильм режиссёра,<br> который бросил<br> киношколу</span>  
-              <span class="card__text">Не просто бросил, а ушёл<br> с первой лекции. Какой<br> была бы ваша ставка,<br>
-              если бы вы не знали, что<br> режиссёр — Пол Томас<br> Андерсон?</span>
-            </article></a>
-          </li>
-
-          <li class="lots__card-list-item">
-            
-            <a class="card-link" href=""><article class="card card_type_book">
-              <div class="overlay"></div>
-              <span class="card__title">книга, где описан<br> один скучный день<br> из жизни<br> рекламного агента</span>  
-              <span class="card__text">Объёмом почти в тысячу<br> страниц. Иногда без<br> знаков препинания и с<br> 
-              переходами на<br> древнеанглийский. В ней<br> одновременно<br> рассказывается о 16 июня<br> 1904 года и об 
-              истории<br> литературы, начиная с<br> античных времён. И это<br> всё накладывается на<br> эпическую поэму
-              Гомера.<br> Сколько бы вы поставили<br> на «Улисса» Джеймса<br> Джойса?
+              <span class="card__title">Фильм режиссёра, который бросил киношколу</span>  
+              <span class="card__text">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
               </span>
-              
             </article></a>
-            
           </li>
-
+          <li class="lots__card-list-item">
+            <a class="card-link" href="">
+            <article class="card card_type_book">
+              <div class="overlay"></div>
+              <span class="card__title">
+                Книга, где описан один скучный день из жизни рекламного агента
+              </span>  
+              <span class="card__text">
+                Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?
+              </span>
+            </article></a>
+          </li>
           <li class="lots__card-list-item">
             <a class="card-link" href=""><article class="card card_type_picture">
               <div class="overlay"></div>
-              <span class="card__title">картина, которую<br> повторит даже 5-<br>летний сын<br> маминой подруги</span>  
-              <span class="card__text">Ну действительно, там<br> линия, тут кружочек, а<br> здесь и вовсе что-то<br>
-              похожее на инфузорию-<br>туфельку. Никаких полей,<br> лесов, котиков... Сколько<br> бы вы на такое поставили,<br>
-              если бы не знали, что это<br> — одна из<br> революционных работ<br> Кандинского?
+              <span class="card__title">
+                картина, которую повторит даже 5-летний сын маминой подруги
+              </span>  
+              <span class="card__text">
+                Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?
               </span>
             </article></a>
           </li>
-         
         </ul>
-        
         <a class="lots__look-more-link" href="">посмотреть больше</a>
-
-       
       </section>
 
       <section class="about">
-
        <div class="about__column column_left">      
         <div class="about__logo">
           <img class="about__logo-image" src="./images/logo-white.svg" alt="белый логотип">
         </div>
-      </div>
-      
-      <div class="about__column column_right">
-        <h1 class="about__title">об аукционе</h1>
+       </div>
+       <div class="about__column column_right">
+        <h1 class="about__title">
+          об аукционе
+        </h1>
         <div class="about__text">
           <p>
           Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не должны были попасть
@@ -150,21 +127,16 @@
           культовыми.
           </p>
         </div>
-      </div>
-
-      
-    </section>
-
+        </div>
+      </section>
     </main>
 
-    <footer class="footer"> <!-- подвал с индексом, контактами и соцсетями-->
-
+    <footer class="footer">
       <address class="address">
         <a href="tel:+99995555555">+9 999 555 5555</a><br>
         <a href="mailto:info@sobaka.ge">info@sobaka.ge</a><br>
         наб. Принсенграхт 263-<br>265, Амстердам
       </address>
-
       <nav class="footer__menu menu">
         <ul class="footer__menu-list">
           <li class="footer__menu-list-item">главная</li>
@@ -172,7 +144,6 @@
           <li class="footer__menu-list-item"><a href="#about" class="footer__menu-link footer__menu-link_active" >об аукционе</a></li>
         </ul>
       </nav>
-
       <div>
          <ul class="footer__social-list">
           <li class="footer__social-list-item"><a class="footer__social-link" href=""><img class="footer__social-icon" src="./images/yt.svg" alt="YouTube ссылка"></a></li>
@@ -180,8 +151,8 @@
           <li class="footer__social-list-item"><a class="footer__social-link" href=""><img class="footer__social-icon" src="./images/pinterest.svg" alt="Pinterest ссылка"></a></li>
         </ul>
       </div>
-      
     </footer>
 
   </body>
+  
 </html>

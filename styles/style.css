@@ -151,7 +151,7 @@
   justify-content: space-between;
   gap: 24px;
   list-style: none;
-} 
+}
 
 .lots__card-list-item {
   flex-grow: 1;
